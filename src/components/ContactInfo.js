@@ -15,7 +15,10 @@ const ContactInfo = ({ name, email, location }) => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
+      <p className="infoDescription">
+        Open for opportunities. Let's connect and build something awesome
+        together!{" "}
+      </p>
       <ul className="listInfo">
         <li>
           <div className="personalContactInfo">
@@ -23,7 +26,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-user"></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Name</h6>
+              <h6 className="infoType">이름</h6>
               <span className="infoValue">{name}</span>
             </div>
           </div>
@@ -34,7 +37,7 @@ const ContactInfo = ({ name, email, location }) => {
               <i className="icon fa-solid fa-location-pin "></i>{" "}
             </span>
             <div className="mediaWrap">
-              <h6 className="infoType">Location</h6>
+              <h6 className="infoType">주소</h6>
               <span className="infoValue">{location}</span>
             </div>
           </div>
