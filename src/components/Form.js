@@ -15,7 +15,7 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: process.env.REACT_APP_ACCESS_KEY,
+    access_key: "d0202c79-2d13-4320-be74-64ddd9a8329e",
   });
 
   const handleChange = (e) => {
@@ -66,7 +66,10 @@ const Form = () => {
       onSubmit={handleSubmit}
     >
       <h4 className="contentTitle">Message Me</h4>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="text"
           className="formControl"
@@ -78,7 +81,10 @@ const Form = () => {
           required
         />
       </div>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="email"
           className="formControl"
@@ -115,7 +121,9 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+        <button className="btn">
+          {success ? "Message Sent" : "Send Message"}
+        </button>
       </div>
     </motion.form>
   );
