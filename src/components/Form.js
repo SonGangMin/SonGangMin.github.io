@@ -65,7 +65,7 @@ const Form = () => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       onSubmit={handleSubmit}
     >
-      <h4 className="contentTitle">Message Me</h4>
+      <h4 className="contentTitle">메시지를 보내보세요</h4>
       <div
         className="col-12 col-md-6 formGroup"
         style={{ display: "inline-block" }}
@@ -77,7 +77,7 @@ const Form = () => {
           value={formData.name}
           id="contactName"
           name="name"
-          placeholder="Name"
+          placeholder="이름"
           required
         />
       </div>
@@ -92,7 +92,7 @@ const Form = () => {
           value={formData.email}
           id="contactEmail"
           name="email"
-          placeholder="Email"
+          placeholder="이메일"
           required
         />
       </div>
@@ -104,7 +104,7 @@ const Form = () => {
           value={formData.subject}
           id="contactSubject"
           name="subject"
-          placeholder="Subject"
+          placeholder="제목"
           required
         />
       </div>
@@ -116,14 +116,12 @@ const Form = () => {
           name="message"
           id="contactMessage"
           rows="5"
-          placeholder="Message"
+          placeholder="메시지"
           required
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">
-          {success ? "Message Sent" : "Send Message"}
-        </button>
+        <button className="btn">{success ? "보내기 성공" : "보내기"}</button>
       </div>
     </motion.form>
   );

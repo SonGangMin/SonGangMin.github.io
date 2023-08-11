@@ -66,7 +66,7 @@ const Landing = ({ name }) => {
           />
         </div>
       </div>
-      <div className="image-container">
+      {/* <div className="image-container">
         <motion.img
           className="landingImage"
           initial={{ opacity: 0 }}
@@ -76,7 +76,7 @@ const Landing = ({ name }) => {
           src={landingImage}
           alt=""
         />
-      </div>
+      </div> */}
       <SocialIcons />
     </section>
   );
