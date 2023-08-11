@@ -52,7 +52,7 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("저는 신입 백&프론트엔드 개발자입니다")
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString("Code. ")
@@ -74,7 +74,7 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt=""
         />
       </div>
       <SocialIcons />
