@@ -64,10 +64,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <p>손강민</p>
                 </div>
                 <div className="col-12 col-md-6 info">
-                  <span>이메일: </span>
-                  <p>
-                    <a href={`mailto:${email}`}>{email}</a>
-                  </p>
+                  <span>생년월일: </span>
+                  <p>1993.06.28</p>
                 </div>
               </div>
               <div className="row">
@@ -78,6 +76,18 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 <div className="col-12 col-md-6 info">
                   <span>수료내역: </span>
                   <p>{availability}</p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-12 col-md-6 info">
+                  <span>핸드폰번호: </span>
+                  <p>010 - 4977 - 5695</p>
+                </div>
+                <div className="col-12 col-md-6 info">
+                  <span>이메일: </span>
+                  <p>
+                    <a href={`mailto:${email}`}>{email}</a>
+                  </p>
                 </div>
               </div>
               <div className="contentDescription">
