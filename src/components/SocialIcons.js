@@ -1,3 +1,5 @@
+import { SiKakaotalk } from "react-icons/si";
+
 const SocialIcons = () => {
   const styles = {
     icon: {
@@ -31,6 +33,13 @@ const SocialIcons = () => {
           aria-hidden="true"
           title="손강민의 LinkedIn"
         ></i>
+      </a>
+      <a
+        className="icon"
+        style={styles.icon}
+        href="https://open.kakao.com/o/sPL5cFAf"
+      >
+        <SiKakaotalk />
       </a>
     </div>
   );
