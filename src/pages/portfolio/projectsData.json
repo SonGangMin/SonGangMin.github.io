@@ -23,7 +23,7 @@
     "title": "주변 약국지도(공공API/네이버지도 활용)",
     "image": "./projectImages/Pharmacy.png",
     "technologies": "Nodejs | Express | React | NaverAPI ",
-    "description": "",
+    "description": "현재 접속한 IP의 주소를 가져와, 해당하는 주소의 구에 있는 약국의 정보를 공공API로 가져와 네이버지도API를 사용하여 보여주는 사이트입니다. 약국의 주소와, 영업일을 함께 보여줍니다.",
     "github": "https://github.com/SonGangMin/pharmacy.git",
     "deployed": "https://SonGangMin.github.io/pharmacy",
     "bgcolor": "#29cbe0",
