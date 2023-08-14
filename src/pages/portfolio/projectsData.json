@@ -21,7 +21,7 @@
   },
   {
     "title": "주변 약국지도(공공API/네이버지도 활용)",
-    "image": "./projectImages/Pharmacy",
+    "image": "./projectImages/Pharmacy.png",
     "technologies": "Nodejs | Express | React | NaverAPI ",
     "description": "",
     "github": "https://github.com/SonGangMin/pharmacy.git",
