@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15a47da9.css",
-    "main.js": "/static/js/main.2e90e2d3.js",
+    "main.js": "/static/js/main.d29f9859.js",
     "static/media/손강민.jpg": "/static/media/손강민.f2131985620d72c7cadc.jpg",
     "static/media/Card.pdf": "/static/media/Card.1d0ae6dd8fe846bb4684.pdf",
     "static/media/me.svg": "/static/media/me.72026cc8972feff8bdb725056a3d76cf.svg",
@@ -11,10 +11,10 @@
     "static/media/close.svg": "/static/media/close.a591c5268e7cbcfeb569c6afea5745fc.svg",
     "static/media/open.svg": "/static/media/open.e6bd41ec79183186fdb132e92b58c1de.svg",
     "main.15a47da9.css.map": "/static/css/main.15a47da9.css.map",
-    "main.2e90e2d3.js.map": "/static/js/main.2e90e2d3.js.map"
+    "main.d29f9859.js.map": "/static/js/main.d29f9859.js.map"
   },
   "entrypoints": [
     "static/css/main.15a47da9.css",
-    "static/js/main.2e90e2d3.js"
+    "static/js/main.d29f9859.js"
   ]
 }
