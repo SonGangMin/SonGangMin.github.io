@@ -25,7 +25,7 @@
     "technologies": "Nodejs | Express | React | TypeScript ",
     "description": "백엔드/프론트엔드 전부 타입스크립트를 사용하여 4명의 팀원과 만든 토이프로젝트입니다. 저는 메인페이지, 관리자페이지를 담당하였습니다.",
     "github": "https://github.com/SonGangMin/Mo2da",
-    "deployed": "https://SonGangMin.github.io/pharmacy",
+    "deployed": "https://docs.yi.or.kr:3011/",
     "bgcolor": "lightyellow",
     "id": "3"
   },
