@@ -20,7 +20,7 @@
     "id": "2"
   },
   {
-    "title": "Mo2Da(소모임 사이트)",
+    "title": "모이다(Mo2Da)",
     "image": "./projectImages/Mo2Da.png",
     "technologies": "Nodejs | Express | React | TypeScript ",
     "description": "백엔드/프론트엔드 전부 타입스크립트를 사용하여 4명의 팀원과 만든 토이프로젝트입니다. 저는 메인페이지, 관리자페이지를 담당하였습니다.",
