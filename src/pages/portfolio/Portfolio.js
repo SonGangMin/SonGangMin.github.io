@@ -3,7 +3,7 @@ import Project from '../../components/Project';
 import PageHeader from '../../components/PageHeader';
 
 const Portfolio = () => {
-  console.log('ssss', projectData);
+  console.log('ssssssssss');
   const ProjectList = () =>
     projectData.map((project, i) => (
       <Project
